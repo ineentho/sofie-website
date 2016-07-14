@@ -1,0 +1,3 @@
+[submodule "sofie-theme"]
+	path = themes/sofie-website-theme
+	url = https://github.com/ineentho/sofie-website-theme.git

@@ -1,0 +1,14 @@
+checkout:
+  post:
+    - git submodule sync
+    - git submodule update --init
+
+dependencies:
+  pre:
+    - npm i -g hexo
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - hexo generate -d
