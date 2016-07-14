@@ -32,3 +32,5 @@ Milersättning: {% price 20 %}/mil
 
 {% price 250 %}/h
 
+Alla priser visas {% vat %}.
+
