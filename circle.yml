@@ -1,4 +1,4 @@
-checkout:
+ceckout:
   post:
     - git submodule sync
     - git submodule update --init
@@ -6,6 +6,10 @@ checkout:
 dependencies:
   pre:
     - npm i -g hexo
+
+test:
+  override:
+    - true
 
 deployment:
   production:
