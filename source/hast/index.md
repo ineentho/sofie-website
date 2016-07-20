@@ -3,6 +3,8 @@ title: Häst
 layout: page
 ---
 
+# Hästar
+
 ![Lycke](/bilder/lycke.jpg)
 
 ## Hästklippning
