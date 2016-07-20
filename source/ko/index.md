@@ -1,5 +1,5 @@
 ---
-title: Lantbruk
+title: Ko
 layout: page
 ---
 
