@@ -5,6 +5,9 @@ layout: page
 
 #Kossor
 
+![Ella](/bilder/cow.jpg)
+
+
 ## Koklippning
 
 {% price 60 %}/ko
