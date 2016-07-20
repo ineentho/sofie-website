@@ -3,6 +3,8 @@ title: Häst
 layout: page
 ---
 
+
+
 ## Hästklippning
 
 Klipp klipp
@@ -14,6 +16,8 @@ Klipp klipp
 | **Storhäst**  | {% price 240 %} | {% price 320 %} |
 
 Milersättning: {% price 20 %}/mil
+
+## In och utsläpp
 
 ## Koklippning
 
