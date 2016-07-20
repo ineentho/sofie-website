@@ -3,17 +3,9 @@ title: Häst
 layout: page
 ---
 
-# Hästar i mängder
-
-Lite info...
-
-Kanske en bild:
-
-![PH](http://placehold.it/250x150)
-
-Och så priserna
-
 ## Hästklippning
+
+Klipp klipp
 
 |               | Halvklippning   | Helklippning    |
 |---------------|-----------------|-----------------|
