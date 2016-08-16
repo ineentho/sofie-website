@@ -3,13 +3,13 @@ title: Häst
 layout: page
 ---
 
-# Hästar
+# Häst
 
 ![Lycke](/bilder/lycke.jpg)
 
 ## Hästklippning
 
-Klipp klipp
+Jag har klippt lite hästar tidigare men bara på hobbynivå, jag är inget profs än men jag garanterar ett noggrant arbete. Alla jag har har klippt åt tidigare har varit nöjda med mitt jobb. Jag klipper med två riktigt bra maskiner, Heininger Saphir och Heininger Cordless. Jag klipper precis efter era önskemål och priserna här under är vad jag kommer utgå ifrån.
 
 |               | Halvklippning   | Helklippning    |
 |---------------|-----------------|-----------------|
@@ -19,6 +19,6 @@ Klipp klipp
 
 Milersättning: {% price 20 %}/mil
 
-## In och utsläpp
+## In/utsläpp & utfodring
 
-
+Ska du resa bort och har ingen som kan vakta dina hästar? Jag hjälper gärna till, med in och utsläpp samt utfodring. Du kan lita på att dina hästar blir omskötta med kärlek och lugn. Pris diskuterar vi beroende på hur mycket jobb det är, du kommer kunna få ett fast pris och därefter bestämma om du vill köpa min tjänst eller inte.
