@@ -9,7 +9,7 @@ layout: page
 
 ## Hästklippning
 
-Jag har klippt lite hästar tidigare men bara på hobbynivå, jag är inget profs än men jag garanterar ett noggrant arbete. Alla jag har har klippt åt tidigare har varit nöjda med mitt jobb. Jag klipper med två riktigt bra maskiner, Heiniger Saphir och Heiniger Cordless. Jag klipper precis efter era önskemål och priserna här under är vad jag kommer utgå ifrån.
+Jag har klippt lite hästar tidigare men bara på hobbynivå, jag är inget profs än men jag garanterar ett noggrant arbete. Alla jag har har klippt åt tidigare har varit nöjda med mitt jobb. Jag klipper med två riktigt bra maskiner, Heiniger Saphir och Heiniger Xplorer. Jag klipper precis efter era önskemål och priserna här under är vad jag kommer utgå ifrån.
 
 |               | Halvklippning   | Helklippning    |
 |---------------|-----------------|-----------------|
