@@ -1,0 +1,4 @@
+
+test:
+  override:
+    - echo "No tests on gh-pages"

@@ -1,0 +1,30 @@
+<h2 id="Extending-Tether"><a href="#Extending-Tether" class="headerlink" title="Extending Tether"></a>Extending Tether</h2><p>Tether has a module system which can be used to modify Tether’s positioning, or just do something each time the Tether is moved.</p>
+<p>Tether has an array called <code>Tether.modules</code>, push onto it to add a module:</p>
+<pre><code class="coffeescript">Tether.modules.push
+  position: <span class="function"><span class="params">({top, left})</span> -&gt;</span>
+    top += <span class="number">10</span>
+
+    {top, left}
+</code></pre>
+<h4 id="Position"><a href="#Position" class="headerlink" title="Position"></a>Position</h4><p>Your position function can either return a new object with <code>top</code> and <code>left</code>, <code>null</code>/<code>undefined</code> to leave the coordinates unchanged, or<br><code>false</code> to cancel the positioning.</p>
+<p>The position function is passed an object with the following elements:</p>
+<pre><code class="javascript">{
+  left, <span class="comment">// The element's new position, from the top left corner of the page</span>
+  top,
+  targetAttachment, <span class="comment">// The targetAttachment, with 'auto' resolved to an actual attachment</span>
+  targetPos, <span class="comment">// The coordinates of the target</span>
+  attachment, <span class="comment">// The attachment, as passed in the option</span>
+  elementPos, <span class="comment">// The coordinates of the element</span>
+  offset, <span class="comment">// The offset, after it's converted into pixels and the manual offset is added</span>
+  targetOffset, <span class="comment">// The attachment is converted into an offset and is included in these values</span>
+  manualOffset, <span class="comment">// The manual offset, in pixels</span>
+  manualTargetOffset
+}
+</code></pre>
+<p>It is called with the Tether instance as its context (<code>this</code>).</p>
+<h4 id="Initialize"><a href="#Initialize" class="headerlink" title="Initialize"></a>Initialize</h4><p>Modules can also have an <code>initialize</code> function which will be called when a new tether is created.  The initialize function<br>is also called with the Tether instance as its context.</p>
+<pre><code class="coffeescript">Tether.modules.push
+  initialize: <span class="function">-&gt;</span>
+    <span class="built_in">console</span>.log <span class="string">"New Tether Created!"</span>, @
+</code></pre>
+<h4 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h4><p><a href="https://github.com/HubSpot/tether/blob/master/src/js/constraint.js">Constraints</a> and <a href="https://github.com/HubSpot/tether/blob/master/src/js/shift.js">shift</a> are both implemented as modules.<br><a href="https://github.com/HubSpot/tether/blob/master/src/js/markAttachment.js">Mark Attachment</a> is used by the docs.</p>

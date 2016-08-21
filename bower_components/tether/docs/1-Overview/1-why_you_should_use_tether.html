@@ -1,0 +1,14 @@
+<h2 id="Why-You-Should-Use-Tether"><a href="#Why-You-Should-Use-Tether" class="headerlink" title="Why You Should Use Tether"></a>Why You Should Use Tether</h2><p>Virtually every app includes some sort of overlay attached to an element on the page.<br>Things like <a href="http://github.hubspot.com/tooltip/docs/welcome">tooltips</a>,<br><a href="http://github.hubspot.com/select/docs/welcome">dropdowns</a>, <a href="http://github.hubspot.com/drop/docs/welcome">hover-activated info boxes</a>, etc.</p>
+<p>Those elements need to be attached to something on the page.  Actually placing them next to<br>the element in the DOM causes problems though, if any parent element is anything<br>but <code>overflow: visible</code>, the element gets cut off.  So you need absolute positioning<br>in the body.</p>
+<p>Some of the time absolute positioning is right, but what about if the thing we’re<br>attached to is fixed to the center of the screen?  We’ll have to move it every<br>time the user scrolls.  What about if the element is in a scrollable container,<br>if the overlay is inside of it (so no clipping), it would be cool if the code<br>were smart enough to move it inside when that area is scrolled.  That way we<br>need to reposition it even less.</p>
+<p>It would also be nice if the code could somehow figure out whether positioning it<br>from the top, bottom, left, or right would result in the fewest repositionings<br>as the user scrolls or resizes.</p>
+<p>Most of the time you’re building these elements it would be nice for the element to<br>flip to the other side of the element if it hits the edge of the screen, or a scrollable<br>container it might be in.  It would be nice if we could confine the element<br>to within some area, or even hide it when it leaves.</p>
+<p>It would be nice for the element to be repositioned with CSS transforms<br>rather than top and left when possible, to allow the positioning to be done entirely<br>in the GPU.</p>
+<p>Now that the positioning is so fancy, you’re going to use it for more and more<br>elements.  It would be cool if the library could optimize all of their repositioning<br>into a single repaint.</p>
+<p>All of that is baked into Tether.</p>
+<h3 id="tl-dr"><a href="#tl-dr" class="headerlink" title="tl;dr"></a>tl;dr</h3><ul>
+<li>Optimized GPU-accelerated repositioning for 60fps scrolling</li>
+<li>Reliable positioning on any possible corner, edge or point in between.</li>
+<li>Support for repositioning or pinning the element when it would be offscreen</li>
+<li>Designed to be embeddable in other libraries</li>
+</ul>
