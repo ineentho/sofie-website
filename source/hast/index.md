@@ -17,7 +17,7 @@ Jag har klippt lite hästar tidigare men bara på hobbynivå, jag är inget prof
 | **C-D ponny** | {% price 200 %} | {% price 280 %} |
 | **Storhäst**  | {% price 240 %} | {% price 320 %} |
 
-Milersättning: {% price 20 %}/mil
+Milersättning: {% price 20 %}/mil Utgår från Fjärdhundra
 
 ## In/utsläpp & utfodring
 
